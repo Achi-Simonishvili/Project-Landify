@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project-x</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --- -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="hero-section__background purple-circle"></div>
+      <div class="hero-section__background turquoise-circle"></div>
+      <div class="hero-section__background left-band-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="420"
+          height="118"
+          viewBox="0 0 420 118"
+          fill="none"
+        >
+          <path
+            d="M0 53.0157L420 0.498779V64.4988L0 117.016V53.0157Z"
+            fill="#75E3EA"
+          />
+        </svg>
+      </div>
+      <div class="hero-section__background left-band-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="268"
+          height="117"
+          viewBox="0 0 268 117"
+          fill="none"
+        >
+          <path
+            d="M-152 53.0048L268 0.487793V64.4878L-152 117.005V53.0048Z"
+            fill="#EDE9FE"
+          />
+        </svg>
+      </div>
+      <div class="hero-section__background right-band-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="420"
+          height="117"
+          viewBox="0 0 420 117"
+          fill="none"
+        >
+          <path d="M0 52.517L420 0V64L0 116.517V52.517Z" fill="#EDE9FE" />
+        </svg>
+      </div>
+      <div class="hero-section__background right-band-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="612"
+          height="141"
+          viewBox="0 0 612 141"
+          fill="none"
+        >
+          <path d="M0 76.8083L612 0V64L0 140.808V76.8083Z" fill="#C4B5FD" />
+        </svg>
+      </div>
+      <div class="hero-section__background right-band-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="180"
+          height="117"
+          viewBox="0 0 180 117"
+          fill="none"
+        >
+          <path
+            d="M0 53.0048L420 0.487793V64.4878L0 117.005V53.0048Z"
+            fill="#75E3EA"
+          />
+        </svg>
+      </div>
+      <div class="hero-section__background left-band-1-md">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="224"
+          height="149"
+          viewBox="0 0 224 149"
+          fill="none"
+        >
+          <path
+            d="M0 66.923L224 0.215515V81.5088L0 148.216V66.923Z"
+            fill="#75E3EA"
+          />
+        </svg>
+      </div>
+      <div class="hero-section__background left-band-2-md">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="143"
+          height="149"
+          viewBox="0 0 143 149"
+          fill="none"
+        >
+          <path
+            d="M-81.0667 67.3362L142.933 0.628845V81.922L-81.0667 148.629V67.3362Z"
+            fill="#EDE9FE"
+          />
+        </svg>
+      </div>
+      <div class="hero-section__background right-band-1-md">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="225"
+          height="149"
+          viewBox="0 0 225 149"
+          fill="none"
+        >
+          <path
+            d="M0.93335 66.7606L224.933 0.0532227V81.3465L0.93335 148.054V66.7606Z"
+            fill="#EDE9FE"
+          />
+        </svg>
+      </div>
+      <div class="hero-section__background right-band-2-md">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="327"
+          height="180"
+          viewBox="0 0 327 180"
+          fill="none"
+        >
+          <path
+            d="M0.600098 97.8281L327 0.265564V81.5588L0.600098 179.121V97.8281Z"
+            fill="#C4B5FD"
+          />
+        </svg>
+      </div>
+      <div class="hero-section__background right-band-3-md">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="96"
+          height="149"
+          viewBox="0 0 96 149"
+          fill="none"
+        >
+          <path
+            d="M0 67.5095L224 0.802063V82.0954L0 148.803V67.5095Z"
+            fill="#75E3EA"
+          />
+        </svg>
+      </div>
+      <header class="header">
+        <div class="header__left">
+          <a href="index.html">
+            <div class="header__brand">
+              <img class="header__brand-logo" src="content/Logos/Logo.svg" />
+              <img class="header__brand-text" src="content/Logos/Landify.svg" />
+              <img class="header__brand-tm" src="content/Logos/TM.svg" />
+            </div>
+          </a>
+          <ul class="header__nav">
+            <li class="header__nav__item">
+              <a class="header__nav__link" href="#">Features</a>
+            </li>
+            <li class="header__nav__item">
+              <a class="header__nav__link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="header__nav__item">
+              <a class="header__nav__link" href="#">Careers</a>
+            </li>
+            <li class="header__nav__item">
+              <a class="header__nav__link" href="help.html">Help</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__logo">
+          <div class="logo-item google">
+            <img src="content/Logos/Google Play logo.svg" alt="" />
+            <img src="content/Logos/Google Play logo - Text.svg" alt="" />
+          </div>
+          <div class="logo-item apple">
+            <a href=""><img src="content/Logos/Apple logo.svg" alt="" /></a>
+            <a href=""
+              ><img src="content/Logos/Apple logo - Text.svg" alt=""
+            /></a>
+          </div>
+          <div class="menu-1">
+            <img src="content/Icons/Icon=menu-1.svg" alt="burger menu" />
+          </div>
+          <div class="menu-2">
+            <img src="content/Icons/Icon=menu-2.svg" alt="burger menu" />
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="hero-section">
+          <div class="content">
+            <div class="content__text">
+              <h1>The easiest way to manage projects</h1>
+              <p>
+                From the small stuff to the big picture, organizes the work so
+                teams know what to do, why it matters, and how to get it done.
+              </p>
+            </div>
+            <div class="content__btn">
+              <button type="button" class="btn get-started">Get Started</button>
+              <button type="button" class="btn watch-video">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10 8L16 12L10 16V8Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Watch Video
+              </button>
+            </div>
+          </div>
+          <div class="hero-section__img">
+            <img class="iphone" src="content/Hero/Phone Mockup.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <section>
+      <div class="logo-clouds">
+        <div class="logo">
+          <img src="content/Logo clouds/airbnb.svg" alt="" />
+        </div>
+        <div class="logo">
+          <img src="content/Logo clouds/hubspot.svg" alt="" />
+        </div>
+        <div class="logo">
+          <img src="content/Logo clouds/google.svg" alt="" />
+        </div>
+        <div class="logo">
+          <img src="content/Logo clouds/microsoft.svg" alt="" />
+        </div>
+        <div class="logo">
+          <img src="content/Logo clouds/walmart.svg" alt="" />
+        </div>
+        <div class="logo">
+          <img src="content/Logo clouds/fedex.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="features">
+        <div class="features__header">
+          <h2>Tailor-made features</h2>
+          <p>
+            Lorem ipsum is common placeholder text used to demonstrate the
+            graphic elements of a document or visual presentation.
+          </p>
+        </div>
+        <div class="features__grid">
+          <div class="features__grid__item">
+            <img src="content/Feature icons/01.svg" alt="" />
+            <h3>Robust workflow</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              nibh tristique ipsum.
+            </p>
+          </div>
+          <div class="features__grid__item">
+            <img src="content/Feature icons/Group.svg" alt="" />
+            <h3>Flexibility</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              nibh tristique ipsum.
+            </p>
+          </div>
+          <div class="features__grid__item">
+            <img src="content/Feature icons/Group (1).svg" alt="" />
+            <h3>User friendly</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              nibh tristique ipsum.
+            </p>
+          </div>
+          <div class="features__grid__item">
+            <img src="content/Feature icons/Group (2).svg" alt="" />
+            <h3>Multiple layouts</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              nibh tristique ipsum.
+            </p>
+          </div>
+          <div class="features__grid__item">
+            <img src="content/Feature icons/Group (3).svg" alt="" />
+            <h3>Better components</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              nibh tristique ipsum.
+            </p>
+          </div>
+          <div class="features__grid__item">
+            <img src="content/Feature icons/Group (6).svg" alt="" />
+            <h3>Well organised</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              nibh tristique ipsum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="testimonial">
+        <div class="testimonial__container">
+          <div class="testimonial__grid">
+            <div class="testimonial__grid__item item-1">
+              <h2>Real Stories from Real Customers</h2>
+              <p>Get inspired by these stories.</p>
+            </div>
+            <div class="testimonial__grid__item item-2">
+              <div class="logo">
+                <img src="content/Logo clouds/airbnb.svg" alt="" />
+              </div>
+              <div class="testimonial__grid__item__text">
+                <p>
+                  I used landify and created a landing page for my startup
+                  within a week. The Landify UI Kit is simple and highly
+                  intuitive, so anyone can use it.
+                </p>
+                <div class="author">
+                  <h6>Jane Cooper</h6>
+                  <p>CEO, Airbnb</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial__grid__item item-3">
+              <div class="logo">
+                <img src="content/Logo clouds/hubspot.svg" alt="" />
+              </div>
+              <div class="testimonial__grid__item__text">
+                <p>
+                  To quickly start my startup landing page design, I was looking
+                  for a landing page UI Kit. Landify is one of the best landing
+                  page UI kit I have come across. It's so flexible, well
+                  organised and easily editable.
+                </p>
+                <div class="author">
+                  <h6>Floyd Miles</h6>
+                  <p>Vice President, GoPro</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial__grid__item item-4">
+              <div class="logo">
+                <img src="content/Logo clouds/Strapi.svg" alt="" />
+              </div>
+              <div class="testimonial__grid__item__text">
+                <p>Landify saved our time in designing my company page.</p>
+                <div class="author">
+                  <h6>Kristin Watson</h6>
+                  <p>Co-Founder, Strapi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="metrics container d-flex justify-content-between align-items-start flex-column flex-lg-row align-items-lg-center gap-5 px-2 py-5"
+      >
+        <div class="metrics__header">
+          <h2>Our 18 years of achievements</h2>
+          <p>With our super powers we have reached this</p>
+        </div>
+        <div class="metrics__content row">
+          <div
+            class="metrics__content__item col-12 col-md-6 d-flex justify-content-start align-items-center gap-4"
+          >
+            <img src="content/Feature icons/01.svg" alt="" />
+            <div class="metrics__content__item__text">
+              <h3>10,000+</h3>
+              <p>Downloads per day</p>
+            </div>
+          </div>
+          <div
+            class="metrics__content__item col-12 col-md-6 d-flex justify-content-start align-items-center gap-4"
+          >
+            <img src="content/Feature icons/Group (2).svg" alt="" />
+            <div class="metrics__content__item__text">
+              <h3>2 Million</h3>
+              <p>Users</p>
+            </div>
+          </div>
+          <div
+            class="metrics__content__item col-12 col-md-6 d-flex justify-content-start align-items-center gap-4"
+          >
+            <img src="content/Feature icons/Group (3).svg" alt="" />
+            <div class="metrics__content__item__text">
+              <h3>500+</h3>
+              <p>Clients</p>
+            </div>
+          </div>
+          <div
+            class="metrics__content__item col-12 col-md-6 d-flex justify-content-start align-items-center gap-4"
+          >
+            <img src="content/Feature icons/Group (5).svg" alt="" />
+            <div class="metrics__content__item__text">
+              <h3>140</h3>
+              <p>Countries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="logo-clouds-2 container d-flex flex-column flex-md-row justify-content-between align-items-start px-2 py-5"
+      >
+        <div class="logo-clouds-2__header">
+          <h2>Easy integrations with 170+ tools</h2>
+          <p>
+            Connect Landify with your favourite tools that you use daily and
+            keep things on track.
+          </p>
+        </div>
+        <div class="logo-clouds-2__logos p-4">
+          <div class="logo-clouds-2__logos__background w-100 h-100"></div>
+          <div
+            class="first-row d-flex justify-content-center align-items-center flex-nowrap gap-3"
+          >
+            <div class="logo-clouds-2__logos-item">
+              <img src="content/Logo clouds - 2/Logo.png" alt="" />
+            </div>
+            <div class="logo-clouds-2__logos-item">
+              <img src="content/Logo clouds - 2/Logo (1).png" alt="" />
+            </div>
+            <div class="logo-clouds-2__logos-item">
+              <img src="content/Logo clouds - 2/Logo (2).png" alt="" />
+            </div>
+            <div class="logo-clouds-2__logos-item">
+              <img src="content/Logo clouds - 2/Logo (3).png" alt="" />
+            </div>
+          </div>
+          <div
+            class="second-row d-flex justify-content-center align-items-center flex-nowrap gap-3"
+          >
+            <div class="logo-clouds-2__logos-item">
+              <img src="content/Logo clouds - 2/Logo (4).png" alt="" />
+            </div>
+            <div class="logo-clouds-2__logos-item">
+              <img src="content/Logo clouds - 2/Logo (5).png" alt="" />
+            </div>
+            <div class="logo-clouds-2__logos-item">
+              <img src="content/Logo clouds - 2/Logo (6).png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="cta">
+        <div
+          class="cta__content container d-flex flex-column flex-lg-row justify-content-between align-items-center px-2"
+        >
+          <div class="cta__content__text align-self-center py-5">
+            <h2>Manage all projects from your mobile</h2>
+            <p>
+              Download the app to manage your projects, keep track of the
+              progress and complete tasks without procastinating. Stay on track
+              and complete on time!
+            </p>
+
+            <div class="cta__content__logos d-flex flex-column">
+              <span>Get the App</span>
+              <div class="logos">
+                <div class="logo-item google">
+                  <img src="content/Logos/Google Play logo.svg" alt="" />
+                  <img src="content/Logos/Google Play logo - Text.svg" alt="" />
+                </div>
+                <div class="logo-item apple">
+                  <a href=""
+                    ><img src="content/Logos/Apple logo.svg" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="content/Logos/Apple logo - Text.svg" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="cta__content__images d-flex flex-column flex-sm-row h-100"
+          >
+            <div class="cta__content__images__img phone-1 align-self-sm-start">
+              <img src="content/cta/Phone Mockup 1.png" alt="" />
+            </div>
+            <div class="cta__content__images__img phone-2 align-self-sm-end">
+              <img src="content/cta/Phone Mockup 2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div
+          class="footer__content container d-flex flex-column flex-md-row justify-content-between py-5"
+        >
+          <div class="footer__content__text">
+            <div class="footer__brand mb-4">
+              <img class="header__brand-logo" src="content/Logos/Logo.svg" />
+            </div>
+            <ul class="nav mb-2">
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Download Now</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">License</a>
+              </li>
+            </ul>
+            <ul class="nav mb-4">
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">About</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Features</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">News</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="help.html">Help</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Contact</a>
+              </li>
+            </ul>
+            <p>© 2021 Landify UI Kit. All rights reserved</p>
+          </div>
+          <div
+            class="footer__content__logos cta__content__logos d-flex flex-column"
+          >
+            <span class="mb-2">Get the App</span>
+            <div class="logos d-flex flex-column align-items-start py-2">
+              <div class="logo-item google border border-white">
+                <img src="content/Logos/Google Play logo.svg" alt="" />
+                <img src="content/Logos/Google Play logo - Text.svg" alt="" />
+              </div>
+              <div class="logo-item apple border border-white">
+                <a href=""><img src="content/Logos/Apple logo.svg" alt="" /></a>
+                <a href=""
+                  ><img src="content/Logos/Apple logo - Text.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+@use "__variables" as var;
+
+.help__wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  section {
+    flex-grow: 1;
+    .faq {
+      &__content {
+        &__header {
+          h1 {
+            @include var.font-display-lg(700);
+          }
+          p {
+            @include var.font-body-md(400);
+          }
+
+          @media screen and (max-width: 767px) {
+            h1 {
+              @include var.font-display-md(700);
+            }
+            p {
+              @include var.font-body-sm(400);
+            }
+          }
+        }
+        .accordion {
+          &-button {
+            @include var.font-body-md(600);
+            &:focus {
+              box-shadow: none;
+            }
+            &:not(.collapsed) {
+              background-color: var.$accent-05;
+            }
+          }
+          &-body {
+            @include var.font-body-md(400);
+            background: var.$accent-06;
+          }
+        }
+      }
+    }
+  }
+}

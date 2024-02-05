@@ -1,0 +1,69 @@
+.help__wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.help__wrapper section {
+  flex-grow: 1;
+}
+.help__wrapper section .faq__content__header h1 {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  font-weight: 700;
+}
+.help__wrapper section .faq__content__header p {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  .help__wrapper section .faq__content__header h1 {
+    color: rgb(17, 24, 39);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.9px;
+    font-weight: 700;
+  }
+  .help__wrapper section .faq__content__header p {
+    color: rgb(17, 24, 39);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+.help__wrapper section .faq__content .accordion-button {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.help__wrapper section .faq__content .accordion-button:focus {
+  box-shadow: none;
+}
+.help__wrapper section .faq__content .accordion-button:not(.collapsed) {
+  background-color: rgb(160, 220, 255);
+}
+.help__wrapper section .faq__content .accordion-body {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background: rgb(217, 232, 239);
+}
+
+/*# sourceMappingURL=help.css.map */

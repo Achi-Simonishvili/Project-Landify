@@ -1,0 +1,96 @@
+@use "__variables" as var;
+
+.pricing__wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  section {
+    flex-grow: 1;
+    .pricing {
+      &__header {
+        h1 {
+          @include var.font-display-lg(700);
+        }
+        p {
+          @include var.font-body-md(400);
+        }
+
+        @media screen and (max-width: 767px) {
+          h1 {
+            @include var.font-display-md(700);
+          }
+          p {
+            @include var.font-body-sm(400);
+          }
+        }
+      }
+      &__content {
+        .row {
+          .col {
+            .card {
+              &-header {
+                h1 {
+                  @include var.font-display-lg(600);
+                }
+                h4 {
+                  @include var.font-display-sm(500);
+                }
+                p {
+                  @include var.font-body-sm(400);
+                  color: var.$neutral-400;
+                }
+                small {
+                  @include var.font-body-md(400);
+                  color: var.$neutral-400;
+                }
+              }
+
+              &-body {
+                ul {
+                  li {
+                    @include var.font-body-md(400);
+                    svg {
+                      width: 20px;
+                      color: var.$primary-600;
+                    }
+                  }
+                }
+                button {
+                  border-color: var.$primary-600;
+                  color: var.$primary-600;
+                  &:hover {
+                    background: var.$primary-600;
+                    color: var.$primary-50;
+                  }
+                }
+              }
+            }
+            .enterprise {
+              border-color: var.$primary-600;
+              &-top {
+                background: var.$primary-600;
+                h1,
+                h4 {
+                  color: var.$primary-50;
+                }
+                p,
+                small {
+                  color: var.$primary-300;
+                }
+              }
+              &-bot {
+                button {
+                  background: var.$primary-600;
+                  color: var.$primary-50;
+                  &:hover {
+                    background: var.$primary-900;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

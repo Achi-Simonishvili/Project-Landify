@@ -1,0 +1,132 @@
+$neutral-900: rgba(17, 24, 39, 1);
+$neutral-800: rgba(31, 41, 55, 1);
+$neutral-700: rgba(55, 65, 81, 1);
+$neutral-600: rgba(75, 85, 99, 1);
+$neutral-500: rgba(107, 114, 128, 1);
+$neutral-400: rgba(156, 163, 175, 1);
+$neutral-300: rgba(209, 213, 219, 1);
+$neutral-200: rgba(229, 231, 235, 1);
+$neutral-100: rgba(243, 244, 246, 1);
+$neutral-50: rgba(249, 250, 251, 1);
+$primary-900: rgba(76, 29, 149, 1);
+$primary-600: rgba(124, 58, 237, 1);
+$primary-300: rgba(196, 181, 253, 1);
+$primary-100: rgba(237, 233, 254, 1);
+$primary-50: rgba(245, 243, 255, 1);
+$secondary-900: rgba(42, 78, 81, 1);
+$secondary-600: rgba(29, 181, 190, 1);
+$secondary-300: rgba(117, 227, 234, 1);
+$secondary-100: rgba(213, 250, 252, 1);
+$secondary-50: rgba(236, 254, 255, 1);
+$accent-01: rgba(193, 229, 192, 1);
+$accent-02: rgba(192, 218, 229, 1);
+$accent-03: rgba(253, 217, 217, 1);
+$accent-04: rgba(255, 195, 216, 1);
+$accent-05: rgba(160, 220, 255, 1);
+$accent-06: rgba(217, 232, 239, 1);
+
+$box-shadow-2xl: 0px 24px 48px -12px rgba(17, 24, 39, 0.25);
+$box-shadow-xl: 0px 8px 8px -4px rgba(17, 24, 39, 0.04),
+  0px 20px 24px -4px rgba(17, 24, 39, 0.1);
+$box-shadow-lg: 0px 4px 6px -2px rgba(17, 24, 39, 0.05),
+  0px 12px 16px -4px rgba(17, 24, 39, 0.1);
+$box-shadow-md: 0px 2px 4px -2px rgba(17, 24, 39, 0.06),
+  0px 4px 8px -2px rgba(17, 24, 39, 0.1);
+$box-shadow-sm: 0px 1px 2px 0px rgba(17, 24, 39, 0.06),
+  0px 1px 3px 0px rgba(17, 24, 39, 0.1);
+$box-shadow-xs: 0px 1px 2px 0px rgba(17, 24, 39, 0.05);
+
+@mixin font {
+  color: $neutral-900;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+@mixin font-display-2xl($font-weight) {
+  @include font;
+  font-size: 72px;
+  line-height: 90px;
+  letter-spacing: -1.8px;
+  font-weight: $font-weight;
+}
+
+@mixin font-display-xl($font-weight) {
+  @include font;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -1.5px;
+  font-weight: $font-weight;
+}
+
+@mixin font-display-lg($font-weight) {
+  @include font;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  font-weight: $font-weight;
+}
+
+@mixin font-display-md($font-weight) {
+  @include font;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.9px;
+  font-weight: $font-weight;
+}
+
+@mixin font-display-sm($font-weight) {
+  @include font;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: $font-weight;
+}
+
+@mixin font-display-xs($font-weight) {
+  @include font;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: $font-weight;
+}
+
+@mixin font-body-xl($font-weight) {
+  @include font;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: $font-weight;
+}
+
+@mixin font-body-lg($font-weight) {
+  @include font;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: $font-weight;
+}
+
+@mixin font-body-md($font-weight) {
+  @include font;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: $font-weight;
+}
+
+@mixin font-body-sm($font-weight) {
+  @include font;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: $font-weight;
+}
+
+@mixin font-body-xs($font-weight) {
+  @include font;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: $font-weight;
+}
+
+@mixin flex($justify, $align, $direction, $gap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  gap: $gap;
+}

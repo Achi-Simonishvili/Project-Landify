@@ -1,0 +1,122 @@
+.pricing__wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.pricing__wrapper section {
+  flex-grow: 1;
+}
+.pricing__wrapper section .pricing__header h1 {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  font-weight: 700;
+}
+.pricing__wrapper section .pricing__header p {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  .pricing__wrapper section .pricing__header h1 {
+    color: rgb(17, 24, 39);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.9px;
+    font-weight: 700;
+  }
+  .pricing__wrapper section .pricing__header p {
+    color: rgb(17, 24, 39);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+.pricing__wrapper section .pricing__content .row .col .card-header h1 {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  font-weight: 600;
+}
+.pricing__wrapper section .pricing__content .row .col .card-header h4 {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+}
+.pricing__wrapper section .pricing__content .row .col .card-header p {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgb(156, 163, 175);
+}
+.pricing__wrapper section .pricing__content .row .col .card-header small {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(156, 163, 175);
+}
+.pricing__wrapper section .pricing__content .row .col .card-body ul li {
+  color: rgb(17, 24, 39);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.pricing__wrapper section .pricing__content .row .col .card-body ul li svg {
+  width: 20px;
+  color: rgb(124, 58, 237);
+}
+.pricing__wrapper section .pricing__content .row .col .card-body button {
+  border-color: rgb(124, 58, 237);
+  color: rgb(124, 58, 237);
+}
+.pricing__wrapper section .pricing__content .row .col .card-body button:hover {
+  background: rgb(124, 58, 237);
+  color: rgb(245, 243, 255);
+}
+.pricing__wrapper section .pricing__content .row .col .enterprise {
+  border-color: rgb(124, 58, 237);
+}
+.pricing__wrapper section .pricing__content .row .col .enterprise-top {
+  background: rgb(124, 58, 237);
+}
+.pricing__wrapper section .pricing__content .row .col .enterprise-top h1,
+.pricing__wrapper section .pricing__content .row .col .enterprise-top h4 {
+  color: rgb(245, 243, 255);
+}
+.pricing__wrapper section .pricing__content .row .col .enterprise-top p,
+.pricing__wrapper section .pricing__content .row .col .enterprise-top small {
+  color: rgb(196, 181, 253);
+}
+.pricing__wrapper section .pricing__content .row .col .enterprise-bot button {
+  background: rgb(124, 58, 237);
+  color: rgb(245, 243, 255);
+}
+.pricing__wrapper section .pricing__content .row .col .enterprise-bot button:hover {
+  background: rgb(76, 29, 149);
+}
+
+/*# sourceMappingURL=pricing.css.map */
